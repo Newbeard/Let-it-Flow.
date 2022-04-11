@@ -1,0 +1,24 @@
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.calendar {
+  width: 60%;
+  margin-left: 60px;
+}
+
+.profile-form-date {
+  max-width: 500px;
+  flex-grow: 1;
+  margin-right: 20px;
+  margin-top: 150px;
+}
+
+.profile-calendar {
+  max-width: 500px;
+  flex-grow: 2;
+}

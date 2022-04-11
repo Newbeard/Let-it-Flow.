@@ -1,0 +1,25 @@
+.order-item .uuid {
+  font-size: 30px;
+}
+
+.order-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.order-item {
+  padding-bottom: 5px;
+}
+
+.order-bouquet-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-bouquet-title {
+  max-width: 100px;
+  min-height: 50px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,12 @@
+export const LOGIN = 'LOGIN'
+export const SIGNUP = 'SIGNUP'
+export const LOGOUT = 'LOGOUT'
+export const REFRESH_TOKEN = 'REFRESH_TOKEN'
+export const ADD_ITEM_CART = 'ADD_ITEM_CART'
+export const DELETE_ITEM_CART = 'DELETE_ITEM_CART'
+export const INCREMENT_ITEM_COUNT_CART = 'INCREMENT_ITEM_COUNT_CART'
+export const DECREMENT_ITEM_COUNT_CART = 'DECREMENT_ITEM_COUNT_CART'
+export const CLEAR_CART = 'CLEAR_CART'
+export const INIT_CART = 'INIT_CART'
+
+

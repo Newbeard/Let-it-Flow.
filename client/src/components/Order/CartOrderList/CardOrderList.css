@@ -1,0 +1,11 @@
+.order-bouquet-number {
+  display: none;
+}
+
+.order-bouquet {
+  margin-right: 20px;
+}
+
+.order-bouquet:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,39 @@
+.container-orders {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.orders-title {
+  font-family: 'Jost', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.orders {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(41,41,41,0.4);
+  padding: 20px;
+  margin-bottom: 20px;  
+}
+
+.orders:hover {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+}
+
+@media(max-width: 768px) {
+  .orders {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+}

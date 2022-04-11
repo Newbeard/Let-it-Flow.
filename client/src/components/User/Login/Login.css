@@ -1,0 +1,16 @@
+.form-wrapper {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.card-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.btn {
+  width: 100%;
+}
+
